@@ -4,6 +4,9 @@ description: "Want to build a music player? This blog covers a C++ implementatio
 date: 2024-04-14 00:00:00 +0000
 categories: [Project, C++]
 tags: [Project, C++]
+image: 
+    path: assets/img/misc/musicplayer.jpeg
+    alt: Just a Vibing Linux Penguin
 ---
 
 
@@ -37,7 +40,7 @@ The music player provides the following functionalities:
 
 Let's dive into the code and understand each part in detail.
 **Queue Music**  (`queueMusic` method)The `queueMusic` function adds a song to the music queue. It checks if the song already exists in the queue to avoid duplicates.
-#### Code Snippet: 
+  
 
 
 ```cpp
@@ -66,7 +69,7 @@ void MusicPlayer::queueMusic(string music) {
 }
 ```
 
-#### Explanation: 
+ **Explanation:** 
  
 - **Checking for duplicates** : Before adding a song to the queue, the code checks if it already exists in the list by traversing the queue. If the song is found, it prints "Music already in queue" and does not add it again.
  
@@ -78,7 +81,7 @@ void MusicPlayer::queueMusic(string music) {
 **Play Music**  (`playMusic` method)
 
 The `playMusic` function plays the songs in the queue one by one, starting from the head of the queue. It also offers a menu to control the playback.
-#### Code Snippet: 
+  
 
 
 ```cpp
@@ -96,7 +99,7 @@ void MusicPlayer::playMusic() {
 }
 ```
 
-#### Explanation: 
+ **Explanation:** 
  
 - **Play the song** : If the queue is not empty, the program starts by playing the first song using `system()` to invoke the `mpg123` command.
  
@@ -109,7 +112,7 @@ void MusicPlayer::playMusic() {
 
 The "Next" option allows the user to skip to the next song in the queue.
 
-#### Code Snippet: 
+  
 
 
 ```cpp
@@ -125,7 +128,7 @@ case 1:
     break;
 ```
 
-#### Explanation: 
+ **Explanation:** 
  
 - **Check for next song** : The code checks if there is a next song available in the queue by inspecting `curr->next`. If there is no next song, it notifies the user.
  
@@ -138,7 +141,7 @@ case 1:
 
 The "Previous" feature allows the user to go back to the previous song in the queue.
 
-#### Code Snippet: 
+  
 
 
 ```cpp
@@ -154,7 +157,7 @@ case 2:
     break;
 ```
 
-#### Explanation: 
+ **Explanation:** 
  
 - **Check for previous song** : The code checks if there is a previous song by looking at `curr->prev`. If the user is at the beginning of the queue, it notifies the user that there is no previous song.
  
@@ -167,7 +170,7 @@ case 2:
 
 The "Pause" and "Resume" options allow the user to pause and resume the playback.
 
-#### Code Snippet: 
+  
 
 
 ```cpp
@@ -179,7 +182,7 @@ case 4:  // Resume
     break;
 ```
 
-#### Explanation: 
+ **Explanation:** 
  
 - **Pause** : The `pkill -STOP mpg123` command sends a stop signal to the `mpg123` process, pausing the music.
  
@@ -192,7 +195,7 @@ case 4:  // Resume
 
 The "Shuffle" option allows the user to play a random song from the queue.
 
-#### Code Snippet: 
+  
 
 
 ```cpp
@@ -210,7 +213,7 @@ case 5:  // Shuffle
     break;
 ```
 
-#### Explanation: 
+ **Explanation:** 
  
 - **Randomize the queue** : The program generates a random number `n` and traverses the queue `n` times, moving to the next song each time. If it reaches the end, it loops back to the head of the queue.
  
@@ -223,7 +226,7 @@ case 5:  // Shuffle
 
 The "Stop" feature stops the current music and exits the program.
 
-#### Code Snippet: 
+  
 
 
 ```cpp
@@ -233,7 +236,7 @@ case 6:
     break;
 ```
 
-#### Explanation: 
+ **Explanation:** 
  
 - **Stop the music** : The `pkill mpg123` command is used to kill the `mpg123` process, stopping the current song immediately.
  

@@ -4,6 +4,9 @@ description: "Want to check the weather from the command line? In this blog, weâ
 date: 2023-06-24 00:00:00 +0000
 categories: [Project, Python]
 tags: [Project, Python]
+image: 
+    path: assets/img/misc/weather.jpeg
+    alt: Architecture Flow Diagram
 ---
 
 # A Command-Line Weather Checker Using OpenWeatherMap API 
