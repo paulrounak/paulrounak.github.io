@@ -16,8 +16,8 @@ I'm **Rounak Paul**, a **3rd-year Computer Science and Engineering (CSE)** stude
 
 ### <span style="color: grey;">Technical Skills</span>
 I have hands-on experience with the following technologies:
-- **Languages**: **C++**, **Python**, **Javascript**
-- **Frameworks & Tools**: **TensorFlow**, **OpenCV**, **React**, **Django**, **PostgreSQL**
+- **Languages**: C++, Python, Javascript
+- **Frameworks & Tools**: TensorFlow, OpenCV, React, Django, PostgreSQL
 
 These tools are essential in developing scalable, full-stack web applications and AI solutions.
 
