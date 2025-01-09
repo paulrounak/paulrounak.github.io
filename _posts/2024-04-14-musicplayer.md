@@ -3,7 +3,7 @@ title: "Music-Player [Project]"
 description: "Want to build a music player? This blog covers a C++ implementation with a linked list playlist, featuring shuffle, play, pause, and more with the code on GitHub."
 date: 2024-04-14 00:00:00 +0000
 categories: [Project, C++]
-tags: [Project, C++]
+tags: [Project, C++, DSA]
 image: 
     path: assets/img/misc/musicplayer.jpeg
     alt: Just a Vibing Linux Penguin
