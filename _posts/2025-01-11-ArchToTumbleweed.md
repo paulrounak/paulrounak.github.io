@@ -6,6 +6,7 @@ categories: [Linux, Switch]
 tags: [Linux, Arch Linux, OpenSUSE Tumbleweed]
 image:
     path: /assets/img/misc/archvstumbleweed.jpeg
+pin: true
 ---
 
 ## My Journey with Arch Linux
