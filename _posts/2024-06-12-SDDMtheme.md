@@ -13,7 +13,7 @@ image:
 
 Transform your login screen into a visually stunning neon-themed interface with the **sddm-neon-theme**! This guide will walk you through installing and configuring the theme on your system.
 
-The theme is available on GitHub: [sddm-neon-theme](https://github.com/paulrounak/dotfiles).
+The theme is available on GitHub: [sddm-neon-theme](https://github.com/paulrounak/sddm-neon-theme).
 
 ---
 
