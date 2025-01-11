@@ -3,7 +3,7 @@ title: "Customizing SDDM into a Neon Theme"
 description: "A step-by-step guide to install and customize the theme of SDDM."
 date: 2024-06-12 00:00:00 +0000
 categories: [Linux, Ricing]
-tags: [Linux, Ricing, dotfiles]
+tags: [Linux, Ricing, dotfiles, Arch Linux]
 image: 
     path: /assets/img/misc/sddm.jpeg
     alt: My Neon Themed SDDM
