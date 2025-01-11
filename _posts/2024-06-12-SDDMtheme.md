@@ -8,7 +8,7 @@ image:
     path: /assets/img/misc/sddm.jpeg
     alt: My Neon Themed SDDM
 ---
-
+asd
 # A Neon Theme for SDDM
 
 Transform your login screen into a visually stunning neon-themed interface with the **sddm-neon-theme**! This guide will walk you through installing and configuring the theme on your system.
