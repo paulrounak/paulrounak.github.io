@@ -2,7 +2,7 @@
 title: "Why I Switched from Arch Linux to OpenSUSE Tumbleweed"
 description: "Transitioning from one Linux distribution to another can often be a significant decision, especially when you are moving between two rolling-release distributions like Arch Linux and OpenSUSE Tumbleweed. Here's why I made the switch and some insights into the pros and cons of each."
 date: 2025-01-11
-categories: [Linux, Transition]
+categories: [Linux, Switch]
 tags: [Linux, Arch Linux, OpenSUSE Tumbleweed]
 image:
     path: /assets/img/misc/archvstumbleweed.jpeg
